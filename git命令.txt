@@ -1,0 +1,18 @@
+token：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
+
+Git 提交代码的基本流程是这样的：
+
+创建或修改 本地文件
+使用 git add 命令，将创建或修改的文件添加到本地的 暂存区，这里保存的是你的临时更改
+使用 git commit 命令，提交文件到 本地仓库
+使用 git push 命令，将本地代码库同步到 远端仓库
+
+git init
+git add README.md
+git status
+git config --global user.name "pdkpdk8"
+git config --global user.email "1563562058@qq.com"
+git config --global user.password "pml89757"
+git commit -m "first commit"
+git remote set-url origin https://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@github.com/pdkpdk8/Demo.git
+git push origin master
